@@ -5,7 +5,7 @@
     {% if question.author %}
         <p>Author: {{ question.author.username }}</p>
     {% endif %}
-{{ question }}
+<p>{{ question }}</p>
 {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
 
 <form action="{% url 'polls:vote' question.id %}" method="post">
@@ -14,7 +14,7 @@
     <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
     <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br>
 {% endfor %}
-<input type="submit" value="Vote">
+<input type="submit" value="Vote" style=color:blue>
 </form>
 {% if request.user == question.author %}
     <!-- choice creation form -->
