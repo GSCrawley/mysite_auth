@@ -1,7 +1,15 @@
-ul, li, a, p, h1, h2, label, h3 {
+ul, a, p, h1, h2, label, h3 {
     color:white;
     font-size: large;
-    padding: 0.5em;
+    padding: 1em;
+    padding-bottom: 1em;
+    margin-left: 0.5em;
+}
+
+li::marker {
+    color:white;
+    font-size: large;
+    padding-left: 0.5em;
 }
 
 .vote {
