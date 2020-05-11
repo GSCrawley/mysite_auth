@@ -127,5 +127,6 @@ LOGOUT_REDIRECT_URL = '/polls/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
+    '/mysite/polls/static/',
 )
 

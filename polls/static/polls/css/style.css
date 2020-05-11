@@ -1,3 +1,4 @@
+
 ul, a, p, h1, h2, label, h3 {
     color:white;
     font-size: large;
@@ -16,7 +17,7 @@ li::marker {
 .vote {
     color: blue;
 }
-body {
+body { 
     background: url("/static/polls/images/background.gif");
     background-size: cover;
 }

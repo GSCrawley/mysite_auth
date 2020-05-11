@@ -1,6 +1,7 @@
 {% extends 'polls/base.html' %}
 
 {% block content %}
+{% load static %}
 <h1>{{ question.question_text }}</h1>
     {% if question.author %}
         <p>Author: {{ question.author.username }}</p>
