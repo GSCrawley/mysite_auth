@@ -123,7 +123,3 @@ STATIC_URL = '/static/'
 LOGIN_REDIRECT_URL = '/polls/'
 LOGOUT_REDIRECT_URL = '/polls/'
 
-# Configure Django App for Heroku.
-import django_heroku
-django_heroku.settings(locals())
-TEST_RUNNER = 'django_heroku.HerokuDiscoverRunner'
