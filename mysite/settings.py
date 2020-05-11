@@ -25,7 +25,7 @@ SECRET_KEY = '9786_9$up$ur0u#szuq35qqu96@ijkbp5z4(6qh$@2ios1uq+6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['takeapollmakeapoll.herokuapp.com']
 
 
 # Application definition
