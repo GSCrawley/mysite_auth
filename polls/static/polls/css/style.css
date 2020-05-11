@@ -17,7 +17,8 @@ li::marker {
 .vote {
     color: blue;
 }
+
 body { 
-    background: url("/static/polls/images/background.gif");
+    background: url("polls/static/polls/images/background.gif");
     background-size: cover;
 }
