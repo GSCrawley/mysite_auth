@@ -3,6 +3,7 @@ ul, a, p, h1, h2, label, h3 {
     font-size: large;
     padding: 1em;
     padding-bottom: 1em;
+    padding-left: 0.5em;
     margin-left: 0.5em;
 }
 
