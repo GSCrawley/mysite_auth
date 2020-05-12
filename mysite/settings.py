@@ -133,5 +133,5 @@ STATICFILES_DIRS = (
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-django_heroku.settings(locals())
-TEST_RUNNER = 'django_heroku.HerokuDiscoverRunner'
+# django_heroku.settings(locals())
+# TEST_RUNNER = 'django_heroku.HerokuDiscoverRunner'
