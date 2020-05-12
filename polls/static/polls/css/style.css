@@ -19,6 +19,6 @@ li::marker {
 }
 
 body { 
-    background: url("polls/static/polls/images/background.gif");
+    background: url("/mysite/polls/static/polls/images/background.gif");
     background-size: cover;
 }
